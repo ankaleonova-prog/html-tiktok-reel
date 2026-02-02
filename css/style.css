@@ -33,11 +33,32 @@ video {
 	right: 0;
 	display: flex;
 	color: white;
+	font-size: 15px;
+
+
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
-
+.btnplay{
+	font-size: 25px;
+	flex-grow: 0.2;
+}
+.btnsearch{
+	font-size: 25px;
+	flex-grow:0.2;
+	justify-self: flex-end;
+	text-align: end;
+}
+.btnexpl{
+	opacity: 50%;
+}
+.btnseguiti{
+	opacity: 50%;
+}
+.btnperte{
+	text-decoration: underline;
+}
 
 /* Footer */
 
