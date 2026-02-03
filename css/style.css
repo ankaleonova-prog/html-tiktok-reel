@@ -87,6 +87,16 @@ footer {
 	bottom: 0;
 	color: #fff;
 	font-size: 11px;
+	display: flex;
+	flex-direction: column-reverse;
+	min-height: 100px;
+	justify-items: top;
+	
+
+
+	
+
+	
 
 
 
@@ -94,10 +104,12 @@ footer {
 	le tue regole, se necessario. */
 }
 .barranav{
+	height: 50px;
 	background-color: black;
 	display: flex;
 	justify-content: space-between;
-	align-items: ;
+	align-items: center;
+	font-size: 11px;
 
 }
 
@@ -110,14 +122,20 @@ footer {
 	color: white;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
 	justify-content: space-between;
-
+	align-items: center;
 	
-	
-
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.numbers{
+	font-size: 11px;
+}
+.btnplus.{
+	font-size: 16px;
+	
 }
 
 /* ---------------------
@@ -131,7 +149,7 @@ da rimuovere una volta concluso
 
 .debug .sidebar {
 	min-width: 80px;
-	min-height: 450px;
+	min-height: 300px;
 	border: 2px dashed #ff0;
 }
 
