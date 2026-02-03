@@ -89,8 +89,16 @@ footer {
 	font-size: 11px;
 
 
+
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.barranav{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: ;
+
 }
 
 /* Sidebar */
@@ -100,6 +108,10 @@ footer {
 	right: 0;
 	top: 40%;
 	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 	
 	
 
