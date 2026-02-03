@@ -69,6 +69,14 @@ video {
 
 
 }
+.s{
+	width: 20px;
+	border-radius: 50%;
+
+}
+img{
+	width: 100%;
+}
 
 /* Footer */
 
@@ -78,6 +86,8 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
+	font-size: 11px;
+
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -89,6 +99,10 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+	color: white;
+	
+	
+
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
